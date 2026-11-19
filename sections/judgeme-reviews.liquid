@@ -1,0 +1,98 @@
+{%- liquid
+  assign review_product = section.settings.review_product
+  assign show_reviews_carousel = false
+
+  if request.page_type == 'product'
+    assign review_product = product
+  elsif request.page_type == 'index' and section.settings.show_reviews_carousel
+    assign show_reviews_carousel = true
+  endif
+-%}
+
+{%- if review_product != blank or show_reviews_carousel -%}
+  <section
+    class="judgeme-reviews section-padding color-{{ section.settings.color_scheme }}"
+    style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;"
+  >
+    <div class="{{ section.settings.width }}">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="h3">{{ section.settings.heading | escape }}</h2>
+      {%- endif -%}
+
+      {%- if show_reviews_carousel -%}
+        {%- render 'judgeme-reviews-carousel' -%}
+      {%- else -%}
+        {%- render 'judgeme-product-widget', product: review_product -%}
+      {%- endif -%}
+    </div>
+  </section>
+{%- elsif request.design_mode -%}
+  <p class="wrapper">Select a product to display its reviews.</p>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Judge.me Reviews",
+  "limit": 1,
+  "enabled_on": {
+    "templates": ["index", "product"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_reviews_carousel",
+      "label": "Show featured reviews on the home page",
+      "default": false
+    },
+    {
+      "type": "product",
+      "id": "review_product",
+      "label": "Featured product",
+      "info": "Used on the home page. Product pages use the current product."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section heading"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper", "label": "Normal" },
+        { "value": "wrapper--narrow", "label": "Narrow" },
+        { "value": "wrapper--full-padded", "label": "Full width padded" }
+      ]
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [{ "name": "Judge.me Reviews" }]
+}
+{% endschema %}

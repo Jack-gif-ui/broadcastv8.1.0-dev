@@ -143,10 +143,7 @@
         "linklist_j3hDHt",
         "linklist_UEzT8J"
       ],
-      "custom_css": [
-        ".footer__block--newsletter {--font-body-medium: 0.75rem;}",
-        ".footer__block--newsletter :is( .footer__newsletter__text p, .input-group__field, .newsletter__submit, .form__legal p, .form__legal a) {font-family: \"DM Sans\", sans-serif; font-size: var(--font-body-medium); font-weight: 400; font-style: normal;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_image_width": 85,
         "color_scheme": "scheme-8",

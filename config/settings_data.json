@@ -42,8 +42,8 @@
     "product_grid_outline": false,
     "enable_superscript": false,
     "empty_search_menu": "main-menu",
-    "instagram_link": "https://instagram.com/shopify",
-    "tiktok_link": "https://tiktok.com/@shopify",
+    "instagram_link": "https://www.instagram.com/shopify/",
+    "tiktok_link": "www.tiktok.com/@deardeercouturejew",
     "product_grid_font_size": "body-x-small",
     "product_grid_center": true,
     "image_hover_limit": 3,
@@ -52,10 +52,14 @@
     "show_siblings": false,
     "show_grid_swatches": true,
     "show_cutline": false,
-    "form_style": "modern",
+    "form_style": "classic",
+    "show_lines": true,
+    "show_labels": true,
+    "variant_boxes": true,
     "sale_badge": false,
-    "show_variant_image": true,
+    "show_variant_image": false,
     "variant_image_style": "stacked",
+    "show_newsletter": false,
     "final_sale": false,
     "quantity_style": "dropdown",
     "atc_show_product_price": true,
@@ -67,8 +71,8 @@
     "badge_font_size": "body-x-small",
     "sale_tags_enable": true,
     "show_saving_badge": true,
-    "sale_bg_color": "#f7e9de",
-    "sale_text_color": "#212121",
+    "sale_bg_color": "#9B3B33",
+    "sale_text_color": "#FAF6F0",
     "show_custom_badge": false,
     "badge_bg_color": "#c0b9b8",
     "badge_text_color": "#212121",
@@ -96,6 +100,13 @@
     "checkout_button_color": "#ab8c52",
     "checkout_error_color": "#c85c42",
     "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -226,7 +237,7 @@
       "scheme-8": {
         "settings": {
           "section_text": "#212121",
-          "section_bg": "#eae6dd",
+          "section_bg": "#F3EDE4",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
           "btn_primary_bg": "#212121",

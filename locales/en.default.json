@@ -464,7 +464,7 @@
       "value_unavailable": "{{ option_value }} - Unavailable",
       "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
       "compare_at": "Compare at",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "",
       "unit_price_label": "Unit price",
       "subscription": "Subscription",
       "save": "Save",

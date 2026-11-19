@@ -41,7 +41,7 @@
             "text_L4brP6": {
               "type": "text",
               "settings": {
-                "text": "UP TO 50% OFF EVERTHING",
+                "text": "UP TO 50% OFF EVERYTHING",
                 "text_font_size": "body-large",
                 "padding_bottom": 8
               },
@@ -51,7 +51,7 @@
               "type": "_group-buttons",
               "name": "Side by side buttons",
               "settings": {
-                "button_text": "SHOP BLACKFRIDAY",
+                "button_text": "SHOP BLACK FRIDAY",
                 "button_url": "shopify://collections/jewellery-sale",
                 "button_type": "btn--black",
                 "button_size": "",
@@ -539,6 +539,17 @@
         "color_scheme": ""
       }
     },
+    "section_custom_code_7PjnRJ": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- Start of Judge.me code -->{% assign has_legacy = false %}{% if product.metafields.judgeme.widget.size > 20 %}{% assign has_legacy = true %}{% endif %}<div style='clear:both'></div><div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-product-id='{{ product.id }}' data-widget='review' data-auto-install='false' data-shop-reviews-count='{{ shop.metafields.judgeme.shop_reviews_count | default: 0 | escape }}' data-entry-point='review_widget.js' data-entry-key='review-widget/main.js'>{% if has_legacy %}<div class='jdgm-legacy-widget-content' style='display: none;'>{{ product.metafields.judgeme.widget }}</div>{% endif %}</div>{% if product.metafields.judgeme.review_widget_data %}<script>jdgm.data ||= {}; jdgm.data.reviewWidget ||= {}; jdgm.data.reviewWidget[{{ product.id }}] = {{ product.metafields.judgeme.review_widget_data }}</script>{% endif %}<!-- End of Judge.me code -->",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "rich-text-3": {
       "type": "section-rich-text",
       "blocks": {
@@ -548,7 +559,7 @@
             "button_text": "READ ALL REVIEWS",
             "button_url": "",
             "button_type": "btn--primary",
-            "button_size": "",
+            "button_size": "btn--large",
             "button_style": "btn--solid",
             "show_arrow": false,
             "padding_bottom": 16
@@ -567,13 +578,14 @@
         "buttons_6kFNqm",
         "text_NW8a6B"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--full-padded",
         "color_scheme": "",
         "overlay_type": "disabled",
-        "padding_top": 82,
-        "padding_bottom": 0
+        "padding_top": 118,
+        "padding_bottom": 118
       }
     },
     "section_reviews_gYUtyE": {
@@ -704,6 +716,7 @@
     "section_collections_list_Nh6HXW",
     "section_text_row_KrVTTA",
     "section_product_8HthaN",
+    "section_custom_code_7PjnRJ",
     "rich-text-3",
     "section_reviews_gYUtyE",
     "section_map_knMJqF"

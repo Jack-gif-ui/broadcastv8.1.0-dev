@@ -40,6 +40,7 @@
         },
         "siblings_RdbAxK": {
           "type": "siblings",
+          "disabled": true,
           "settings": {
             "siblings_collection": "",
             "sibling_color": "",
@@ -54,8 +55,8 @@
             "info_page": "ring-size-guide",
             "size_chart_style": "question",
             "option_font_size": "body-x-small",
-            "value_font_size": "body-small",
-            "padding_bottom": 16
+            "value_font_size": "body-x-small",
+            "padding_bottom": 10
           }
         },
         "buttons": {
@@ -79,8 +80,8 @@
             "icon_name": "icon-recycle",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free 30 Days Returns</p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>3-Day Exchange for Defects</strong></p>",
+            "text_font_size": "body-x-small",
             "width": "half",
             "padding_bottom": 8
           }
@@ -91,8 +92,8 @@
             "icon_name": "icon-truck",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free shipping on orders over $100</p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>Free Shipping & Defect Exchanges Free</strong></p>",
+            "text_font_size": "body-x-small",
             "width": "half",
             "padding_bottom": 8
           }
@@ -103,8 +104,8 @@
             "icon_name": "icon-donation",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>1 year warranty</p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>One Free Warranty Repair for Premium Items</strong></p>",
+            "text_font_size": "body-x-small",
             "width": "half",
             "padding_bottom": 8
           }
@@ -112,11 +113,11 @@
         "icon_c6KeCK": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-flare",
+            "icon_name": "icon-mail",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>14k Solid Gold</p>",
-            "text_font_size": "body-small",
+            "text": "<p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\"><strong>Order Support by Email</strong></a></p>",
+            "text_font_size": "body-x-small",
             "width": "half",
             "padding_bottom": 16
           }
@@ -124,32 +125,32 @@
         "tab_richtext_zTRLbY": {
           "type": "tab_richtext",
           "settings": {
-            "show_description": true,
+            "show_description": false,
             "show_read_more": true,
             "title_1": "DESCRIPTION",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.1</p>",
-            "title_2": "DETAILS + DIMENSIONS",
-            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product. &nbsp;Use tabs to highlight unique features, sizing information, or other sales information.</p>",
-            "title_3": "MATERIALS",
-            "raw_content_3": "<p>You can use product metafields to assign content to this tab that is unique to an individual product. &nbsp;Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "raw_content_1": "<p>{{ product.metafields.custom.pdp_description_html | metafield_tag }}</p>",
+            "title_2": "Key Features",
+            "raw_content_2": "{{ product.metafields.custom.pdp_key_features | metafield_tag }}",
+            "title_3": "Care Instructions",
+            "raw_content_3": "{{ product.metafields.custom.pdp_care_instructions | metafield_tag }}",
             "title_4": "",
             "raw_content_4": "",
             "title_5": "",
             "raw_content_5": "",
-            "padding_bottom": 0
+            "padding_bottom": 4
           }
         },
         "accordion_i6tbbM": {
           "type": "accordion",
           "settings": {
             "style": "collapsible",
-            "show_description": true,
-            "show_read_more": true,
+            "show_description": false,
+            "show_read_more": false,
             "default_open": false,
-            "heading": "FAQ1",
-            "heading_font_size": "body-medium",
-            "text": "",
-            "text_font_size": "body-medium",
+            "heading": "Do you offer free shipping?",
+            "heading_font_size": "body-small",
+            "text": "<p>Yes, we offer free shipping. Enter your delivery address at checkout to see the delivery options available for your order.</p>",
+            "text_font_size": "body-x-small",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -162,12 +163,12 @@
           "settings": {
             "style": "collapsible",
             "show_description": false,
-            "show_read_more": true,
+            "show_read_more": false,
             "default_open": false,
-            "heading": "FAQ2",
-            "heading_font_size": "body-medium",
-            "text": "<p>FAQ2 CONTENT</p>",
-            "text_font_size": "body-medium",
+            "heading": "What if my item arrives damaged or defective?",
+            "heading_font_size": "body-small",
+            "text": "<p>Email <a href=\"mailto:tanleizhou@gmail.com\"><strong>tanleizhou@gmail.com</strong></a> within <strong>3 days of delivery</strong> with your order number and a brief description of the issue. We’ll replace the defective item free of charge and cover the exchange shipping costs.</p><p>Eligible premium items also include <strong>one free warranty repair</strong>. For covered repairs requested after the 3-day exchange window, you pay the shipping costs.</p>",
+            "text_font_size": "body-x-small",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -249,7 +250,7 @@
         "heading_mdMa4k": {
           "type": "heading",
           "settings": {
-            "heading": "Free shipping on orders over $200",
+            "heading": "Free shipping",
             "heading_font_size": "heading-x-small"
           }
         },
@@ -266,7 +267,24 @@
         "heading_XVqAix": {
           "type": "heading",
           "settings": {
-            "heading": "1 Year Warranty",
+            "heading": "3-Day Defect Exchanges",
+            "heading_font_size": "heading-x-small"
+          }
+        },
+        "text_PQQUdA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "heading_RCrjJX": {
+          "type": "heading",
+          "settings": {
+            "heading": "1 Free Warranty Repair on Eligible Premium Items",
             "heading_font_size": "heading-x-small"
           }
         }
@@ -275,7 +293,9 @@
         "text_ahhmFM",
         "heading_mdMa4k",
         "text_rNczAj",
-        "heading_XVqAix"
+        "heading_XVqAix",
+        "text_PQQUdA",
+        "heading_RCrjJX"
       ],
       "name": "Scrolling text",
       "settings": {
@@ -299,17 +319,10 @@
           "settings": {
             "product_recommendations_heading": "Related products"
           }
-        },
-        "recent": {
-          "type": "recent",
-          "settings": {
-            "product_recently_heading": "Recently viewed"
-          }
         }
       },
       "block_order": [
-        "related",
-        "recent"
+        "related"
       ],
       "settings": {
         "enable_tabs": true,
@@ -323,63 +336,6 @@
         "color_scheme": "",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section_accordion_W8izqN": {
-      "type": "section-accordion",
-      "blocks": {
-        "text_rDGrnc": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_HGxmmq": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_iYCTat": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_J9qDeq": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_rDGrnc",
-        "text_HGxmmq",
-        "text_iYCTat",
-        "text_J9qDeq"
-      ],
-      "name": "Accordion",
-      "settings": {
-        "default_open": false,
-        "title": "FAQ",
-        "heading_font_size": "heading-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_hero_Cz9YYe": {
@@ -410,10 +366,11 @@
       "settings": {
         "link": "",
         "width": "wrapper--full",
-        "height": "five-fifty-height-hero",
+        "height": "screen-height-one-third",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_image": "shopify://shop_images/2_1_3e0d891a-97e0-40b8-b29c-eb65c8381de6.jpg",
+        "mobile_height": "screen-height-one-third--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "scheme-2",
         "show_text_background": false,
@@ -421,6 +378,63 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_accordion_W8izqN": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_rDGrnc": {
+          "type": "text",
+          "settings": {
+            "title": "How do I choose the right size?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Check the <strong>Description</strong> and <strong>Key Features</strong> for measurements and fit details. Compare the listed dimensions with a piece you already own that fits comfortably.</p>"
+          }
+        },
+        "text_HGxmmq": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I check the materials?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Open <strong>Key Features</strong> for the materials and finishes listed for each piece. If the product has a <strong>Material</strong> selector, check the option you’ve selected before adding it to your cart.</p>"
+          }
+        },
+        "text_iYCTat": {
+          "type": "text",
+          "settings": {
+            "title": "How should I care for my jewellery?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Follow the <strong>Care Instructions</strong> on the product page. For everyday care, remove your jewellery before showering or swimming, apply perfume and lotions before putting it on, and store it separately in a dry place.</p>"
+          }
+        },
+        "text_J9qDeq": {
+          "type": "text",
+          "settings": {
+            "title": "How can I track my order?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Select <strong>Order Tracking</strong> in the store footer to check your delivery status. If you need help, email <a href=\"mailto:tanleizhou@gmail.com\"><strong>tanleizhou@gmail.com</strong></a> with your order number.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rDGrnc",
+        "text_HGxmmq",
+        "text_iYCTat",
+        "text_J9qDeq"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": false,
+        "title": "Jewellery Questions? Start Here",
+        "heading_font_size": "heading-mini",
+        "show_icon": true,
+        "icon_name": "icon-check-circle",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_rich_text_kzn8zn": {
@@ -439,6 +453,7 @@
       "block_order": [
         "heading_nXhKiz"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "align_text": "text-left",
@@ -448,6 +463,38 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "17950829896bdeb199": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_inYhEg": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_inYhEg"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_custom_code_WXktYD": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- Start of Judge.me code -->{% assign has_legacy = false %}{% if product.metafields.judgeme.widget.size > 20 %}{% assign has_legacy = true %}{% endif %}<div style='clear:both'></div><div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-product-id='{{ product.id }}' data-widget='review' data-auto-install='false' data-shop-reviews-count='{{ shop.metafields.judgeme.shop_reviews_count | default: 0 | escape }}' data-entry-point='review_widget.js' data-entry-key='review-widget/main.js'>{% if has_legacy %}<div class='jdgm-legacy-widget-content' style='display: none;'>{{ product.metafields.judgeme.widget }}</div>{% endif %}</div>{% if product.metafields.judgeme.review_widget_data %}<script>jdgm.data ||= {}; jdgm.data.reviewWidget ||= {}; jdgm.data.reviewWidget[{{ product.id }}] = {{ product.metafields.judgeme.review_widget_data }}</script>{% endif %}<!-- End of Judge.me code -->",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -455,8 +502,10 @@
     "main",
     "section_announcement_enc4K7",
     "related",
-    "section_accordion_W8izqN",
     "section_hero_Cz9YYe",
-    "section_rich_text_kzn8zn"
+    "section_accordion_W8izqN",
+    "section_rich_text_kzn8zn",
+    "17950829896bdeb199",
+    "section_custom_code_WXktYD"
   ]
 }
