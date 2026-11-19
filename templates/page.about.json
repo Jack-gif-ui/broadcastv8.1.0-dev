@@ -32,7 +32,7 @@
           "type": "heading",
           "settings": {
             "title": "The Story Behind Our Name",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -41,7 +41,7 @@
           "type": "text",
           "settings": {
             "text": "<p>We call someone “dear” because we cherish them. To us, a deer represents gentleness and quiet companionship.</p><p>We wanted our jewelry to carry that same feeling. On busy days, a favorite piece can be a small reminder of what feels like you.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }
@@ -51,18 +51,18 @@
         "text-1-1"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/11118223015_310_1385.jpg",
+        "image_1": "shopify://shop_images/119182533_373_1385.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper",
-        "height": "sixty-fifty-height-hero",
+        "height": "seven-fifty-height-hero",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 50,
-        "show_placeholder": true
+        "show_placeholder": false
       }
     },
     "section_double_DeWNbY": {
@@ -72,7 +72,7 @@
           "type": "heading",
           "settings": {
             "title": "From Sketch to Setting",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -81,7 +81,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Every Dear deer piece begins with an original sketch from our design team. We revisit the proportions, refine the shape, and pay attention to how each piece looks and feels when worn.</p><p>Across our collections, we work with sterling silver, copper, and gold-plated finishes. For pieces with stones, we set them by hand. We check that each setting is secure, the metal edges are smooth, and the finish is even.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }
@@ -91,12 +91,12 @@
         "text_rjx399"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/220261118223016_311_1385.jpg",
+        "image_1": "shopify://shop_images/sketch2527_371_1385.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
         "width": "wrapper",
-        "height": "sixty-fifty-height-hero",
+        "height": "seven-fifty-height-hero",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
@@ -112,7 +112,7 @@
           "type": "heading",
           "settings": {
             "title": "Our Vision",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -121,7 +121,7 @@
           "type": "text",
           "settings": {
             "text": "<p>We design for the way you live, from ordinary mornings to evenings out and festive gatherings. We hope the pieces you choose become the ones you reach for again and again because they feel like you.</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }

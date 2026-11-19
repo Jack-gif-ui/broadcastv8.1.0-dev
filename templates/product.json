@@ -38,17 +38,6 @@
             "padding_bottom": 8
           }
         },
-        "siblings_RdbAxK": {
-          "type": "siblings",
-          "disabled": true,
-          "settings": {
-            "siblings_collection": "",
-            "sibling_color": "",
-            "option_font_size": "body-medium",
-            "value_font_size": "body-x-small",
-            "padding_bottom": 16
-          }
-        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -182,29 +171,11 @@
             "show_line": true,
             "padding_bottom": 20
           }
-        },
-        "upsell": {
-          "type": "upsell",
-          "settings": {
-            "upsell_product": "",
-            "upsell_product_list": [
-              "knot-multi-pearl-drop-earrings-in-gold-4",
-              "marquise-threadless-flat-back-titanium-cartilage-stud-in-gold-2",
-              "vale-crystal-ear-cuff-in-gold-2"
-            ],
-            "show_available_upsell_only": true,
-            "layout": "stacked",
-            "autoplay": false,
-            "autoplay_speed": 8,
-            "bg_color": "",
-            "padding_bottom": 24
-          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "siblings_RdbAxK",
         "variants",
         "buttons",
         "icon_2",
@@ -214,8 +185,7 @@
         "tab_richtext_zTRLbY",
         "accordion_i6tbbM",
         "accordion_LUmAgG",
-        "divider_RHQKMP",
-        "upsell"
+        "divider_RHQKMP"
       ],
       "custom_css": [
         "@media (min-width: 750px) {.product__wrapper--grid-2 .product__page {grid-template-columns: minmax(0, 6.5fr) minmax(0, 3.5fr); }}"
@@ -242,7 +212,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -259,7 +229,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -276,7 +246,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -301,14 +271,14 @@
       "settings": {
         "slider_speed": 7,
         "text_alignment": "center",
-        "marquee_speed": 100,
+        "marquee_speed": 75,
         "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
+        "message_spacing": 25,
+        "show_border": true,
         "layout": "marquee",
-        "color_scheme": "scheme-2",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "color_scheme": "scheme-7",
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "related": {
@@ -437,63 +407,17 @@
         "padding_bottom": 0
       }
     },
-    "section_rich_text_kzn8zn": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_nXhKiz": {
-          "type": "heading",
-          "settings": {
-            "title": "review judge me app area",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nXhKiz"
-      ],
-      "disabled": true,
-      "name": "Rich text",
+    "judgeme_reviews_yahMJy": {
+      "type": "judgeme-reviews",
+      "name": "Judge.me Reviews",
       "settings": {
-        "align_text": "text-left",
+        "show_reviews_carousel": false,
+        "review_product": "",
+        "heading": "revirew area",
         "width": "wrapper",
         "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "17950829896bdeb199": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_inYhEg": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_inYhEg"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "section_custom_code_WXktYD": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "<!-- Start of Judge.me code -->{% assign has_legacy = false %}{% if product.metafields.judgeme.widget.size > 20 %}{% assign has_legacy = true %}{% endif %}<div style='clear:both'></div><div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-product-id='{{ product.id }}' data-widget='review' data-auto-install='false' data-shop-reviews-count='{{ shop.metafields.judgeme.shop_reviews_count | default: 0 | escape }}' data-entry-point='review_widget.js' data-entry-key='review-widget/main.js'>{% if has_legacy %}<div class='jdgm-legacy-widget-content' style='display: none;'>{{ product.metafields.judgeme.widget }}</div>{% endif %}</div>{% if product.metafields.judgeme.review_widget_data %}<script>jdgm.data ||= {}; jdgm.data.reviewWidget ||= {}; jdgm.data.reviewWidget[{{ product.id }}] = {{ product.metafields.judgeme.review_widget_data }}</script>{% endif %}<!-- End of Judge.me code -->",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
@@ -504,8 +428,6 @@
     "related",
     "section_hero_Cz9YYe",
     "section_accordion_W8izqN",
-    "section_rich_text_kzn8zn",
-    "17950829896bdeb199",
-    "section_custom_code_WXktYD"
+    "judgeme_reviews_yahMJy"
   ]
 }

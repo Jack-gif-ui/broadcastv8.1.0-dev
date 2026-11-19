@@ -38,7 +38,7 @@
     "grid_style": "classic",
     "dots_style": "circle",
     "icon_style": "1",
-    "parallax_enable": true,
+    "parallax_enable": false,
     "product_grid_outline": false,
     "enable_superscript": false,
     "empty_search_menu": "main-menu",
@@ -200,44 +200,44 @@
       },
       "scheme-6": {
         "settings": {
-          "section_text": "#212121",
-          "section_bg": "#fcfbf9",
-          "section_bg_light": "#f5f2ec",
+          "section_text": "#faf6f0",
+          "section_bg": "#3d261c",
+          "section_bg_light": "#3d261c",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#ffffff",
-          "btn_primary_text": "#212121",
-          "btn_primary_border": "#ffffff",
+          "btn_primary_bg": "#faf6f0",
+          "btn_primary_text": "#3d261c",
+          "btn_primary_border": "#faf6f0",
           "btn_secondary_bg": "#ab8c52",
           "btn_secondary_text": "#ffffff",
           "btn_secondary_border": "#ab8c52",
           "accent": "#ab8c52",
-          "lines_and_border": "#d1d0ce",
+          "lines_and_border": "#593e32",
           "overlay": "#00000033",
-          "links": "#282c2e"
+          "links": "#faf6f0"
         }
       },
       "scheme-7": {
         "settings": {
-          "section_text": "#685a3f",
-          "section_bg": "#f5f2ec",
-          "section_bg_light": "#f5f2ec",
+          "section_text": "#3d261c",
+          "section_bg": "#f3ede4",
+          "section_bg_light": "#f3ede4",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#212121",
-          "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#212121",
+          "btn_primary_bg": "#3d261c",
+          "btn_primary_text": "#faf6f0",
+          "btn_primary_border": "#3d261c",
           "btn_secondary_bg": "#ab8c52",
           "btn_secondary_text": "#ffffff",
           "btn_secondary_border": "#ab8c52",
           "accent": "#ab8c52",
-          "lines_and_border": "#d1cdc4",
+          "lines_and_border": "#e0d7cc",
           "overlay": "#00000033",
-          "links": "#282c2e"
+          "links": "#3d261c"
         }
       },
       "scheme-8": {
         "settings": {
           "section_text": "#212121",
-          "section_bg": "#F3EDE4",
+          "section_bg": "#f3ede4",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
           "btn_primary_bg": "#212121",

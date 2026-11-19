@@ -17,9 +17,19 @@
         "text_NmTmcA": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>Jewellery for Moments Worth Celebrating</strong></p>",
+            "text_font_size": "body-x-small",
             "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_gEfayU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -27,19 +37,39 @@
         "text_FAJMP8": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Create a free shipping countdown</strong></p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>Free Shipping</strong></p>",
+            "text_font_size": "body-x-small",
             "color": "",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
         },
-        "message_nnKTgL": {
-          "type": "message",
+        "text_qfp7Uj": {
+          "type": "text",
           "settings": {
-            "show_wheel": false,
-            "message": "You are ||amount|| away from free shipping.",
-            "text_font_size": "body-small",
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "#AB8C52",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_ang3qt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>One Free Warranty Repair on Eligible Premium Items</strong></p>",
+            "text_font_size": "body-x-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_4nBfbD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -47,9 +77,19 @@
         "text_aAXGkM": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>3-Day Exchange Window for Defects</strong></p>",
+            "text_font_size": "body-x-small",
             "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_gezKjm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "#AB8C52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -57,20 +97,24 @@
       },
       "block_order": [
         "text_NmTmcA",
+        "text_gEfayU",
         "text_FAJMP8",
-        "message_nnKTgL",
-        "text_aAXGkM"
+        "text_qfp7Uj",
+        "text_ang3qt",
+        "text_4nBfbD",
+        "text_aAXGkM",
+        "text_gezKjm"
       ],
       "name": "Scrolling text",
       "settings": {
         "slider_speed": 7,
         "text_alignment": "center",
-        "marquee_speed": 100,
+        "marquee_speed": 75,
         "direction": "ticker-rtl",
         "message_spacing": 10,
         "show_border": false,
         "layout": "marquee",
-        "color_scheme": "",
+        "color_scheme": "scheme-6",
         "padding_top": 0,
         "padding_bottom": 0
       }
