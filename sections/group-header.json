@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_eBBN4p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free UK Next Day Delivery | &nbsp;Free UK Returns &nbsp;| &nbsp;Free International Delivery Over £75</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_VXy9C8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New arrivals are here! Take a peek now</p>",
+            "target_url_enabled": false,
+            "target_url": "shopify://collections/new-arrivals",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_eBBN4p",
+        "text_VXy9C8"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 6,
+        "text_alignment": "center",
+        "show_arrows": true,
+        "marquee_speed": 100,
+        "message_spacing": 10,
+        "text_font_size": "body-small",
+        "color_scheme": "scheme-9",
+        "border_color": "rgba(0,0,0,0)",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_WxdaC4": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/Nola_Molton_Band_Ring_Pia_and_paperclip_bracelet_on_champagne.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "link_text": "BRACELETS",
+            "text_font_size": "body-medium",
+            "link": "shopify://collections/bracelets",
+            "text_color": ""
+          }
+        },
+        "image_aGnWdC": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/Vale_Crystal_Gold_Ear_Cuff.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "link_text": "EARRING COLLECTION",
+            "text_font_size": "body-medium",
+            "link": "shopify://collections/earrings",
+            "text_color": ""
+          }
+        },
+        "image_NNeaDV": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/C4M-28.jpg",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "link_text": "PEARL COLLECTION",
+            "text_font_size": "body-medium",
+            "link": "shopify://collections/pearl-jewelry",
+            "text_color": "#fcfbf9"
+          }
+        }
+      },
+      "block_order": [
+        "image_WxdaC4",
+        "image_aGnWdC",
+        "image_NNeaDV"
+      ],
+      "settings": {
+        "header_sticky": true,
+        "enable_search": true,
+        "header_style": "logo_above",
+        "show_separator_line": false,
+        "header_border_color": "",
+        "separator_opacity": 100,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo": "shopify://shop_images/Dear_Deerlogo-trans.png",
+        "logo_max_limit": 90,
+        "logo_max_limit_mobile": 50,
+        "main_menu_linklist": "main-menu",
+        "enable_call_to_action": false,
+        "button_text": "",
+        "button_link": "",
+        "button_type": "btn--primary",
+        "show_social_icons": true,
+        "secondary_menu_linklist": "",
+        "show_locale_selector": false,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "25% OFF",
+        "highlight_item_color": "#d02e2e",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_product_page": false,
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    },
+    "mobile_menu_kMYLiQ": {
+      "type": "mobile-menu",
+      "blocks": {
+        "menu_EKGPBQ": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "main-menu",
+            "text_font_size": "body-medium",
+            "highlight_item": "25% OFF",
+            "highlight_item_color": "#d02e2e",
+            "padding": true,
+            "padding_bottom": 50
+          }
+        },
+        "socials_93L7NN": {
+          "type": "socials",
+          "settings": {
+            "width": "full",
+            "padding_bottom": 10
+          }
+        },
+        "localization_ywWyWN": {
+          "type": "localization",
+          "settings": {
+            "show_locale_selector": true,
+            "show_locale_code": false,
+            "show_globe_icon": true,
+            "show_country_selector": true,
+            "show_country_name": false,
+            "show_country_flag": true,
+            "width": "full",
+            "pin_to_bottom": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "menu_EKGPBQ",
+        "socials_93L7NN",
+        "localization_ywWyWN"
+      ],
+      "settings": {
+        "logo_max_limit": 120,
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "mobile_menu_kMYLiQ"
+  ]
+}

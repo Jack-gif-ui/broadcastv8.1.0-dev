@@ -1,0 +1,57 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.pre_footer",
+  "name": "Pre-footer",
+  "sections": {
+    "section_rich_text_Hk8WQa": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_3TUhKH": {
+          "type": "heading",
+          "settings": {
+            "title": "INS APP BLOCK AREA",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "buttons_Y6bCfY": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "@INS",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_3TUhKH",
+        "buttons_Y6bCfY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_rich_text_Hk8WQa"
+  ]
+}

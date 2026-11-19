@@ -1,0 +1,711 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_nested_YfkG44": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide_image_hkYEiy": {
+          "type": "_slide-image",
+          "settings": {
+            "image": "shopify://shop_images/190847_227_1385.jpg",
+            "link": "",
+            "flex_align_desktop": "align--bottom-right-desktop",
+            "mobile_image": "shopify://shop_images/Welcome_To_Our_World_b78010a4-e9a1-4c04-b3e7-a4719768c9e3.png",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "text"
+          },
+          "blocks": {
+            "heading_JxYXBt": {
+              "type": "heading",
+              "disabled": true,
+              "settings": {
+                "text": "OUR BIGGEST SALW EVER",
+                "heading_font_size": "heading-medium",
+                "color": "",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_L4brP6": {
+              "type": "text",
+              "settings": {
+                "text": "UP TO 50% OFF EVERTHING",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "group_buttons_DzAjwR": {
+              "type": "_group-buttons",
+              "name": "Side by side buttons",
+              "settings": {
+                "button_text": "SHOP BLACKFRIDAY",
+                "button_url": "shopify://collections/jewellery-sale",
+                "button_type": "btn--black",
+                "button_size": "",
+                "button_style": "btn--solid",
+                "show_arrow": false,
+                "button_secondary_text": "SHOP ALL",
+                "button_secondary_url": "shopify://collections/all",
+                "button_secondary_type": "btn--white",
+                "button_secondary_size": "",
+                "button_secondary_style": "btn--solid",
+                "show_secondary_arrow": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_JxYXBt",
+            "text_L4brP6",
+            "group_buttons_DzAjwR"
+          ]
+        },
+        "slide_image_Y3ntcg": {
+          "type": "_slide-image",
+          "name": "Image",
+          "settings": {
+            "image": "shopify://shop_images/Titanium_Flat_back_studs_on_Orange_2026-4.jpg",
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "mobile_image": "shopify://shop_images/Watermelon_studs.jpg",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled"
+          },
+          "blocks": {
+            "heading_CwM98X": {
+              "type": "heading",
+              "settings": {
+                "text": "25%OFF + 3 FOR 2",
+                "heading_font_size": "heading-large",
+                "color": "",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_DGTHFT": {
+              "type": "text",
+              "settings": {
+                "text": "On all titanium piercing jewelry",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button_Mf6QGG": {
+              "type": "button",
+              "settings": {
+                "text": "SHOP TITANIUM",
+                "link": "shopify://collections/titanium-jewelry",
+                "type": "btn--white",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": true,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_CwM98X",
+            "text_DGTHFT",
+            "button_Mf6QGG"
+          ]
+        }
+      },
+      "block_order": [
+        "slide_image_hkYEiy",
+        "slide_image_Y3ntcg"
+      ],
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-tab-collections": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "title": "Top sales Picks",
+            "featured_collection": "best-seller",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/C4M-28.jpg",
+            "overlay_type": "disabled",
+            "description": "<p>14k solid gold studs, hoops and pearls</p>",
+            "color": "#ffffff",
+            "link_text": "SHOP BLACKFRIDAY",
+            "link": "shopify://collections/jewellery-sale",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "titanium-jewelry",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "<p>14k solid gold essentials, sterling silver statement pieces and more.</p>",
+            "color": "#ffffff",
+            "link_text": "Shop all",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "earrings",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "shopify://collections/earrings",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_MitCk8": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "ear-cuffs",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/ear_cuffs_in_gold_4ca5fe31-ae3b-40b5-83eb-3c474a640eaa.jpg",
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "View All",
+            "link": "shopify://collections/ear-cuffs",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_C44WPF": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "best-seller-home-page-flatback",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/22._Water_Diamond_stud_collection.jpg",
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "shopify://collections/best-seller-home-page-flatback",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection-2",
+        "collection-1",
+        "collection-3",
+        "collection_MitCk8",
+        "collection_C44WPF"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "product_limit": 5,
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "2",
+        "color_scheme": "scheme-6",
+        "padding_top": 62,
+        "padding_bottom": 62,
+        "heading_tag": "automatic"
+      }
+    },
+    "press-logos": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_text_wJAJM6": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/Times-Magazine_square.jpg",
+            "logo_width": 100,
+            "link": "",
+            "text": "Sustainable luxury at its most refined",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_JDfBFK": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/MC_Logo.png",
+            "logo_width": 100,
+            "link": "",
+            "text": "Jewelry that’s as ethical as it is exquisite",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_kFiezL": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/wolfb.jpg",
+            "logo_width": 100,
+            "link": "",
+            "text": "The future of fine jewelry is here—and it’s conscious.",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_GkUtxk": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/MC_Logo.png",
+            "logo_width": 100,
+            "link": "",
+            "text": "Jewelry that’s as ethical as it is exquisite",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_BXQbqE": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/Times-Magazine_square.jpg",
+            "logo_width": 100,
+            "link": "",
+            "text": "Sustainable luxury at its most refined",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_wrqnPU": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/scmp_logo.jpg",
+            "logo_width": 100,
+            "link": "",
+            "text": "Each piece feels like a modern heirloom",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_text_iaKrNQ": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/MC_Logo.png",
+            "logo_width": 100,
+            "link": "",
+            "text": "Jewelry that’s as ethical as it is exquisite",
+            "text_font_size": "body-x-large"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_text_wJAJM6",
+        "logo_item_text_JDfBFK",
+        "logo_item_text_kFiezL",
+        "logo_item_text_GkUtxk",
+        "logo_item_text_BXQbqE",
+        "logo_item_text_wrqnPU",
+        "logo_item_text_iaKrNQ"
+      ],
+      "settings": {
+        "enable_heading_slider": true,
+        "logo_opacity": 60,
+        "title": "FEATURED IN",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 15
+      }
+    },
+    "section_collections_list_Nh6HXW": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_GKnXmj": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-seller",
+            "collection_image": "shopify://shop_images/2_1_3e0d891a-97e0-40b8-b29c-eb65c8381de6.jpg",
+            "title": "BEST SELLERS"
+          }
+        },
+        "collection_b48rgr": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
+            "collection_image": "shopify://shop_images/2026-3_Nori_Mini_and_Nori_Collection.jpg",
+            "title": "EARRINGS"
+          }
+        },
+        "collection_KzJx4J": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklaces",
+            "collection_image": "shopify://shop_images/6-24253_-_2000x3000_332814f2-8060-44dc-9344-1e541480dd0a.jpg",
+            "title": "NECKLACES"
+          }
+        },
+        "collection_dzYwDE": {
+          "type": "collection",
+          "settings": {
+            "collection": "piercing-jewellery",
+            "collection_image": "shopify://shop_images/Watermelon_studs.jpg",
+            "title": "PIERCING JEWELRY"
+          }
+        },
+        "collection_FGm3Uq": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "collection_image": "shopify://shop_images/2000_3000.jpg",
+            "title": "RINGS"
+          }
+        },
+        "collection_LD9naB": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "collection_image": "shopify://shop_images/3_2.jpg",
+            "title": "BRACELETS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GKnXmj",
+        "collection_b48rgr",
+        "collection_KzJx4J",
+        "collection_dzYwDE",
+        "collection_FGm3Uq",
+        "collection_LD9naB"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-x-small",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1.2,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_text_row_KrVTTA": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_AgTqQm": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-check",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Klarna Available",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_DcqbGj": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Free UK Next Day Delivery",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_e4fdVK": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-box",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "LUXURY PACKAGING",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_nk9TFX": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Free International Delivery over £75",
+            "heading_font_size": "heading-mini",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_AgTqQm",
+        "icon_DcqbGj",
+        "icon_e4fdVK",
+        "icon_nk9TFX"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_product_8HthaN": {
+      "type": "section-product",
+      "name": "Featured product",
+      "settings": {
+        "product": "14k-solid-yellow-gold-lab-grown-diamond-curved-trio-flat-back-stud",
+        "show_product_card": false,
+        "layout": "",
+        "limit": 5,
+        "scrolling_styles": "horizontal",
+        "horizontal_scroll": false,
+        "color_scheme": ""
+      }
+    },
+    "rich-text-3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "buttons_6kFNqm": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ ALL REVIEWS",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "text_NW8a6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JUDGE ME APP BLOCK AREA</p>",
+            "text_font_size": "body-x-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "buttons_6kFNqm",
+        "text_NW8a6B"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 82,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_gYUtyE": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_DxqUap": {
+          "type": "review",
+          "settings": {
+            "title": "@Lisa Kudrow",
+            "subheading": "Industry Expert",
+            "review_content": "<p>A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/instagram-image_6cdd7912-35f9-4889-b284-183836082180.jpg",
+            "bio_image": "shopify://shop_images/instagram-image_6cdd7912-35f9-4889-b284-183836082180.jpg",
+            "review_url": ""
+          }
+        },
+        "review_6T6ct4": {
+          "type": "review",
+          "settings": {
+            "title": "Example Customer",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/instagram-image_d5b38e04-c0b2-4abc-9f64-17a035168f02.jpg",
+            "bio_image": "shopify://shop_images/instagram-image_d5b38e04-c0b2-4abc-9f64-17a035168f02.jpg",
+            "review_url": ""
+          }
+        },
+        "review_VjVg7H": {
+          "type": "review",
+          "settings": {
+            "title": "Example Customer",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/1_b96ea65b-7978-44d5-8d0c-c1eed067ab29.jpg",
+            "bio_image": "shopify://shop_images/1_b96ea65b-7978-44d5-8d0c-c1eed067ab29.jpg",
+            "review_url": ""
+          }
+        },
+        "review_BdppkC": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/17_c8cc909f-b1f2-4a21-80b8-19033a8ddf0f.jpg",
+            "bio_image": "shopify://shop_images/17_c8cc909f-b1f2-4a21-80b8-19033a8ddf0f.jpg",
+            "review_url": ""
+          }
+        },
+        "review_AVpqei": {
+          "type": "review",
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/instagram-image_661f7b20-c5a2-4624-aeaf-482f4d23769c.jpg",
+            "bio_image": "shopify://shop_images/instagram-image_661f7b20-c5a2-4624-aeaf-482f4d23769c.jpg",
+            "review_url": ""
+          }
+        },
+        "review_hRAGQy": {
+          "type": "review",
+          "settings": {
+            "title": "Kenneth Powell",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "featured_image": "shopify://shop_images/instagram-image_f0483052-b48c-45a9-8424-8c15a8369e03.jpg",
+            "bio_image": "shopify://shop_images/instagram-image_f0483052-b48c-45a9-8424-8c15a8369e03.jpg",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_DxqUap",
+        "review_6T6ct4",
+        "review_VjVg7H",
+        "review_BdppkC",
+        "review_AVpqei",
+        "review_hRAGQy"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "heading_font_size": "heading-x-small",
+        "text_align": "text-left",
+        "color_scheme": "",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_map_knMJqF": {
+      "type": "section-map",
+      "name": "Map",
+      "settings": {
+        "api_key": "",
+        "map_address": "404 Beach Avenue, Vancouver, BC",
+        "zoom": 11,
+        "style": "default",
+        "image": "shopify://shop_images/Wolf-Badger.jpg",
+        "enable_latlong": false,
+        "lat": "",
+        "long": "",
+        "title": "Visit us in London's Soho",
+        "heading_font_size": "heading-medium",
+        "address": "<p>123 Fake St.<br/>Vancouver, Canada</p><p>Mon - Fri, 10am - 9pm<br/>Weekends, 11am - 4pm</p>",
+        "button": "Directions",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_nested_YfkG44",
+    "section-tab-collections",
+    "press-logos",
+    "section_collections_list_Nh6HXW",
+    "section_text_row_KrVTTA",
+    "section_product_8HthaN",
+    "rich-text-3",
+    "section_reviews_gYUtyE",
+    "section_map_knMJqF"
+  ]
+}

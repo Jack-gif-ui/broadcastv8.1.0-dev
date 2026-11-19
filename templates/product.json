@@ -1,0 +1,462 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_WfYLrb": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "show_shipping_policy": true,
+            "padding_bottom": 8
+          }
+        },
+        "siblings_RdbAxK": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "",
+            "sibling_color": "",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "ring-size-guide",
+            "size_chart_style": "question",
+            "option_font_size": "body-x-small",
+            "value_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--black",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "icon_2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Free 30 Days Returns</p>",
+            "text_font_size": "body-small",
+            "width": "half",
+            "padding_bottom": 8
+          }
+        },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Free shipping on orders over $100</p>",
+            "text_font_size": "body-small",
+            "width": "half",
+            "padding_bottom": 8
+          }
+        },
+        "icon_bH3jWT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>1 year warranty</p>",
+            "text_font_size": "body-small",
+            "width": "half",
+            "padding_bottom": 8
+          }
+        },
+        "icon_c6KeCK": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>14k Solid Gold</p>",
+            "text_font_size": "body-small",
+            "width": "half",
+            "padding_bottom": 16
+          }
+        },
+        "tab_richtext_zTRLbY": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_description": true,
+            "show_read_more": true,
+            "title_1": "DESCRIPTION",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.1</p>",
+            "title_2": "DETAILS + DIMENSIONS",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product. &nbsp;Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "MATERIALS",
+            "raw_content_3": "<p>You can use product metafields to assign content to this tab that is unique to an individual product. &nbsp;Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_i6tbbM": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": true,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "FAQ1",
+            "heading_font_size": "body-medium",
+            "text": "",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_LUmAgG": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "FAQ2",
+            "heading_font_size": "body-medium",
+            "text": "<p>FAQ2 CONTENT</p>",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "divider_RHQKMP": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [
+              "knot-multi-pearl-drop-earrings-in-gold-4",
+              "marquise-threadless-flat-back-titanium-cartilage-stud-in-gold-2",
+              "vale-crystal-ear-cuff-in-gold-2"
+            ],
+            "show_available_upsell_only": true,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 24
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "siblings_RdbAxK",
+        "variants",
+        "buttons",
+        "icon_2",
+        "icon_1",
+        "icon_bH3jWT",
+        "icon_c6KeCK",
+        "tab_richtext_zTRLbY",
+        "accordion_i6tbbM",
+        "accordion_LUmAgG",
+        "divider_RHQKMP",
+        "upsell"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.product__wrapper--grid-2 .product__page {grid-template-columns: minmax(0, 6.5fr) minmax(0, 3.5fr); }}"
+      ],
+      "settings": {
+        "product_sticky_enable": false,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "grid-2",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "scheme-1",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    },
+    "section_announcement_enc4K7": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_ahhmFM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "heading_mdMa4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free shipping on orders over $200",
+            "heading_font_size": "heading-x-small"
+          }
+        },
+        "text_rNczAj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "heading_XVqAix": {
+          "type": "heading",
+          "settings": {
+            "heading": "1 Year Warranty",
+            "heading_font_size": "heading-x-small"
+          }
+        }
+      },
+      "block_order": [
+        "text_ahhmFM",
+        "heading_mdMa4k",
+        "text_rNczAj",
+        "heading_XVqAix"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products"
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed"
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 6,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordion_W8izqN": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_rDGrnc": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_HGxmmq": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_iYCTat": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_J9qDeq": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rDGrnc",
+        "text_HGxmmq",
+        "text_iYCTat",
+        "text_J9qDeq"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": false,
+        "title": "FAQ",
+        "heading_font_size": "heading-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_Cz9YYe": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_VmncVj": {
+          "type": "heading",
+          "settings": {
+            "title": "Recycled Materials",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_HCfkAU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We partner with high quality jewellers who only use recycled gold, AAA-grade gemstones, and ethically sourced diamonds.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_VmncVj",
+        "text_HCfkAU"
+      ],
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "five-fifty-height-hero",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_kzn8zn": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nXhKiz": {
+          "type": "heading",
+          "settings": {
+            "title": "review judge me app area",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nXhKiz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_divider_WfYLrb",
+    "main",
+    "section_announcement_enc4K7",
+    "related",
+    "section_accordion_W8izqN",
+    "section_hero_Cz9YYe",
+    "section_rich_text_kzn8zn"
+  ]
+}
