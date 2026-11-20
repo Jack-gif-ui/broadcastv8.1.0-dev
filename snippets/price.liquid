@@ -28,7 +28,8 @@
   assign price_max = product.price_max
   assign available = target.available | default: false
 
-  if compare_at_price > price
+  assign is_on_sale = false
+  if price != blank and compare_at_price != blank and compare_at_price > 0 and compare_at_price > price
     assign is_on_sale = true
   endif
 
@@ -71,6 +72,20 @@
   endif
 
   assign sale_badge = settings.sale_badge
+  assign sale_badge_type = settings.sale_badge_type
+
+  if show_pdp_discount
+    assign sale_badge = is_on_sale
+    assign sale_badge_type = 'percentage'
+  endif
+
+  if sale_badge and is_on_sale and sale_badge_type == 'percentage'
+    assign percentage_off = compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round
+
+    if show_pdp_discount and percentage_off == 0
+      assign sale_badge = false
+    endif
+  endif
 
   if settings.final_sale or product.metafields.theme.final_sale.type == 'boolean' and product.metafields.theme.final_sale.value == true
     assign final_sale = true
@@ -99,7 +114,7 @@
         <span class="price-item price-item--regular">{{ money_price }}</span>
       </div>
 
-      {% if compare_at_price > price %}
+      {% if is_on_sale %}
         <div class="price__sale">
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
           <span class="price-item price-item--sale price-item--last">
@@ -145,8 +160,12 @@
             class="product__price--off"
             data-price-off-badge
           >
-            {% if settings.sale_badge_type == 'percentage' %}
+            {% comment %}
+              {% if settings.sale_badge_type == 'percentage' %}
               <span>{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round }}%</span>
+            {% endcomment %}
+            {% if sale_badge_type == 'percentage' %}
+              <span>{{ percentage_off }}%</span>
             {% else %}
               {%- liquid
                 assign price_difference = compare_at_price | minus: price

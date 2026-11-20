@@ -11,6 +11,11 @@
   assign featured_media = current_variant.featured_media | default: product.featured_media
   assign featured_media_aspect_ratio = featured_media.aspect_ratio | default: 1
   assign is_title_linked = true
+  assign show_pdp_discount = false
+  if template.name == 'product' and featured_product == false
+    assign is_title_linked = false
+    assign show_pdp_discount = true
+  endif
   if template.name == 'product' and featured_product == false
     assign is_title_linked = false
   endif
@@ -422,7 +427,8 @@
                       product: product,
                       block: block,
                       block_style: block_style,
-                      onboarding_product: onboarding_product
+                      onboarding_product: onboarding_product,
+                      show_pdp_discount: show_pdp_discount
                     -%}
 
                   {%- when 'variants' -%}
