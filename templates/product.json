@@ -212,7 +212,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "#AB8C52",
+            "color": "#ab8c52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -229,7 +229,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "#AB8C52",
+            "color": "#ab8c52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -246,7 +246,7 @@
           "settings": {
             "text": "<p>•</p>",
             "text_font_size": "body-x-large",
-            "color": "#AB8C52",
+            "color": "#ab8c52",
             "target_device_enabled": false,
             "target_device": "mobile"
           }

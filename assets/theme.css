@@ -13941,3 +13941,7 @@ dialog.is-loading .loader {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+
+product-info .product__head .product__title__wrapper {
+  padding-right: 0;
+}

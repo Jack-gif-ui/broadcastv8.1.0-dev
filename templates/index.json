@@ -89,21 +89,10 @@
             "overlay_type": "disabled"
           },
           "blocks": {
-            "heading_CwM98X": {
-              "type": "heading",
-              "settings": {
-                "text": "25%OFF + 3 FOR 2",
-                "heading_font_size": "heading-large",
-                "color": "",
-                "heading_tag": "automatic",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
             "text_DGTHFT": {
               "type": "text",
               "settings": {
-                "text": "On all titanium piercing jewelry",
+                "text": "On All Black Friday Jewelry",
                 "text_font_size": "body-large",
                 "padding_bottom": 8
               },
@@ -111,6 +100,7 @@
             },
             "button_Mf6QGG": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "text": "SHOP TITANIUM",
                 "link": "shopify://collections/titanium-jewelry",
@@ -125,7 +115,6 @@
             }
           },
           "block_order": [
-            "heading_CwM98X",
             "text_DGTHFT",
             "button_Mf6QGG"
           ]
@@ -530,7 +519,7 @@
       "type": "section-product",
       "name": "Featured product",
       "settings": {
-        "product": "14k-solid-yellow-gold-lab-grown-diamond-curved-trio-flat-back-stud",
+        "product": "crimson-cabochon-floral-teardrop-statement-necklace-in-gold",
         "show_product_card": false,
         "layout": "",
         "limit": 5,

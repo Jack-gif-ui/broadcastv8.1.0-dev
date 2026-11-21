@@ -24,6 +24,7 @@
     "type_header_font": "jost_n6",
     "type_header_uppercase": true,
     "heading_mini": 13,
+    "heading_small": 24,
     "heading_medium": 36,
     "heading_large": 48,
     "heading_x_large": 60,
